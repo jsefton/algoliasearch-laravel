@@ -1,5 +1,5 @@
 {
-    "name": "algolia/algoliasearch-laravel",
+    "name": "jsefton/algoliasearch-laravel",
     "description": "Laravel Algolia extension",
     "license": "MIT",
     "keywords": [
@@ -18,12 +18,12 @@
     },
     "autoload": {
         "psr-4": {
-            "AlgoliaSearch\\Laravel\\": "src/"
+            "Jsefton\\Laravel\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "AlgoliaSearch\\Tests\\": "tests/"
+            "Jsefton\\Tests\\": "tests/"
         }
     },
     "extra": {
