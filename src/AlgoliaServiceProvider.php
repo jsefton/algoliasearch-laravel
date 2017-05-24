@@ -1,6 +1,6 @@
 <?php
 
-namespace Jsefton\Laravel;
+namespace AlgoliaSearch\Laravel;
 
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\ServiceProvider;
@@ -11,11 +11,11 @@ class AlgoliaServiceProvider extends ServiceProvider
     {
         $this->registerManager();
 
-        Event::subscribe('\Jsefton\Laravel\EloquentSubscriber');
+        Event::subscribe('\AlgoliaSearch\Laravel\EloquentSubscriber');
     }
 
     private function registerManager()
     {
-        $this->app->register('Jsefton\Algolia\AlgoliaServiceProvider');
+        $this->app->register('Vinkla\Algolia\AlgoliaServiceProvider');
     }
 }

@@ -18,12 +18,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Jsefton\\Laravel\\": "src/"
+            "AlgoliaSearch\\Laravel\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Jsefton\\Tests\\": "tests/"
+            "AlgoliaSearch\\Tests\\": "tests/"
         }
     },
     "extra": {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Jsefton\Laravel;
+namespace AlgoliaSearch\Laravel;
 
 use Illuminate\Database\Eloquent\Model;
 
