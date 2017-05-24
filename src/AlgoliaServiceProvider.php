@@ -1,6 +1,6 @@
 <?php
 
-namespace AlgoliaSearch\Laravel;
+namespace Jsefton\Laravel;
 
 use AlgoliaSearch\Version;
 use Illuminate\Support\Facades\Event;

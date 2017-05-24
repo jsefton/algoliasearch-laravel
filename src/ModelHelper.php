@@ -1,9 +1,9 @@
 <?php
 
-namespace AlgoliaSearch\Laravel;
+namespace Jsefton\Laravel;
 
 use Illuminate\Database\Eloquent\Model;
-use Vinkla\Algolia\AlgoliaManager;
+use Jsefton\Algolia\AlgoliaManager;
 
 class ModelHelper
 {
